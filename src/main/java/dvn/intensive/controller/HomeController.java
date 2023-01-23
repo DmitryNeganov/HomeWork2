@@ -17,7 +17,7 @@ public class HomeController {
         return "home";
     }
 
-    @RequestMapping("/lightLunch")
+    @RequestMapping("/HomeWork2/lightLunch")
     public String getLightLunch(Model model) {
         Lunch lunch = (new Director()).getLunch(new LightLunchBuilder());
         String lightLunch = lunch.toString();
@@ -25,7 +25,7 @@ public class HomeController {
         return "lunch";
     }
 
-    @RequestMapping("/standardLunch")
+    @RequestMapping("/HomeWork2/standardLunch")
     public String getStandardLunch(Model model) {
         Lunch lunch = (new Director()).getLunch(new StandardLunchBuilder());
         String lightLunch = lunch.toString();
@@ -33,7 +33,7 @@ public class HomeController {
         return "lunch";
     }
 
-    @RequestMapping("/fullLunch")
+    @RequestMapping("/HomeWork2/fullLunch")
     public String getFullLunch(Model model) {
         Lunch lunch = (new Director()).getLunch(new FullLunchBuilder());
         String lightLunch = lunch.toString();
