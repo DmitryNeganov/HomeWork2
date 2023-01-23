@@ -1,7 +1,6 @@
 package dvn.intensive.builder;
 
 public class Lunch {
-
     private String salad;
     private String soup;
     private String mainDish;

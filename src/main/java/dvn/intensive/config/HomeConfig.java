@@ -17,7 +17,6 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 @ComponentScan(basePackages = "dvn.intensive")
 @EnableWebMvc
 public class HomeConfig implements WebMvcConfigurer {
-
     private final ApplicationContext applicationContext;
 
     @Autowired
