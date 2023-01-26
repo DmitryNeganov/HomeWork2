@@ -40,5 +40,4 @@ public class HomeController {
         model.addAttribute("lunch", lightLunch);
         return "lunch";
     }
-
 }

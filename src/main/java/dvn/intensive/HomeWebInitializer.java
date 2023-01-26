@@ -8,12 +8,10 @@ public class HomeWebInitializer extends AbstractAnnotationConfigDispatcherServle
     protected Class<?>[] getRootConfigClasses() {
         return null;
     }
-
     @Override
     protected Class<?>[] getServletConfigClasses() {
         return new Class[]{HomeConfig.class};
     }
-
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};
